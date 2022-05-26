@@ -1,0 +1,13 @@
+n=int(input())
+c=0
+i=1
+while(i<n):
+    if((i*i)==n):
+        c=1
+        print("True")
+        break
+    else:
+        c=0
+    i+=1
+if(c==0):
+    print("False")
